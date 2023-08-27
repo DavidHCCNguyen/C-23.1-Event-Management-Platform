@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "Blossom Fest: Spring Awakening",
+    "description": "Embrace the beauty of spring at our Blossom Fest, a delightful event filled with vibrant flowers, artistic displays, and enchanting melodies. Join us on a journey of renewal and connection.",
+    "cost": 10,
+    "location": "123 Sunflower Street",
+    "date": "2024-09-01T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "London Twilight Soiree",
+    "description": "Immerse yourself in the allure of London's twilight as we gather for an elegant evening of culture and sophistication. Enjoy captivating conversations, exquisite cuisine, and enchanting views.",
+    "cost": 15,
+    "location": "Riverside Pavilion, London",
+    "date": "2024-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "Sunset Serenade by the Sea",
+    "description": "Escape to Miami's coastline for a mesmerizing Sunset Serenade. Be serenaded by live music, savor gourmet delights, and watch the sun dip below the horizon in a blaze of colors.",
+    "cost": 50000,
+    "location": "Beachfront Oasis, Miami",
+    "date": "2024-01-01T10:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "Music Festival",
+    "description": "Enjoy a day filled with live music performances, delicious food, and a vibrant atmosphere.",
+    "cost": 25,
+    "location": "Park Amphitheater",
+    "date": "2024-02-01T10:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "title": "Art Exhibition",
+    "description": "Explore a diverse collection of artworks from local and international artists.",
+    "cost": 5,
+    "location": "City Art Gallery",
+    "date": "2024-05-01T10:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "title": "Fitness Challenge",
+    "description": "Get ready for a high-energy fitness challenge that will push your limits and boost your health.",
+    "cost": 10,
+    "location": "Sports Arena",
+    "date": "2024-07-01T10:00:00.000Z"
+  },
+  {
+    "id": "7",
+    "title": "Tech Conference",
+    "description": "Discover the latest advancements in technology and connect with industry experts.",
+    "cost": 30,
+    "location": "Convention Center",
+    "date": "2024-03-01T10:00:00.000Z"
+  },
+  {
+    "id": "8",
+    "title": "Culinary Workshop",
+    "description": "Enhance your culinary skills in a hands-on workshop led by professional chefs.",
+    "cost": 20,
+    "location": "Cooking School",
+    "date": "2024-12-01T10:00:00.000Z"
+  },
+  {
+    "id": "9",
+    "title": "Nature Hike",
+    "description": "Immerse yourself in the beauty of nature during a guided hike through scenic trails.",
+    "cost": 5,
+    "location": "National Park",
+    "date": "2024-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "10",
+    "title": "Charity Run",
+    "description": "Run for a cause and make a difference in the community during this charity run event.",
+    "cost": 10,
+    "location": "City Streets",
+    "date": "2024-01-01T10:00:00.000Z"
+  }
+]

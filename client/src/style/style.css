@@ -1,0 +1,149 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css?family=SF+Pro+Display&display=swap');
+
+/* Root variables */
+:root {
+  --AppleFont: 'SF Pro Display', sans-serif;
+}
+
+/* Background Styles */
+
+.home-container {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-image: url(../assets/images/Colourful.png);
+}
+
+/* Contact Form Styles */
+
+.title {
+  font-family: var(--AppleFont);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.inputField,
+.textareaField {
+  padding: 0.5rem;
+  font-family: var(--AppleFont);
+  background: linear-gradient(180deg, #ffffff, #f0f4f8);
+  border: 2px solid transparent;
+  border-radius: 0.375rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputField {
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  color: #333333;
+}
+
+.textareaField {
+  resize: vertical;
+}
+
+.inputField:hover,
+.textareaField:hover {
+  background-color: #ffffff;
+  border-color: #4a90e2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.textareaField textarea {
+  color: #333333;
+}
+
+.inputField:focus,
+.textareaField:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+}
+
+.submitButton,
+.donation-button {
+  font-family: var(--AppleFont);
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background: linear-gradient(to right, #FF3F6C, #FFD53E);
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75;
+  border-radius: 3rem;
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submitButton:hover,
+.donation-button:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(to right, #ff9900, #ff0481);
+  border-color: #EB4174, #FFE3E3;
+  box-shadow: 0 0 7px #C15CFF, 0 0 12px #ffb949, 0 0 24px #FF5454;
+  transition: border-color 0.1s ease, box-shadow 0.3s ease;
+}
+
+/* Footer Styles */
+
+.footer {
+  font-family: var(--AppleFont);
+  bottom: 0;
+  width: 100%;
+}
+
+.transparent-bg,
+.icon {
+  background-color: transparent;
+}
+
+.name {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.transparent-icon {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.icon:hover::after {
+  opacity: 1;
+}
+
+.mass-container {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-image: url(../assets/images/Colourful.png);
+}
