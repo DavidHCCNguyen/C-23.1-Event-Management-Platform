@@ -67,3 +67,6 @@ This is the original link to the old repo
 
 This is the link to the new repo
 [Current Link](https://github.com/DavidHCCNguyen/C-23.1-Event-Management-Platform)
+
+This is the heroku deployment page
+[Heroku](https://secret-harbor-55616-6d1ec3368d46.herokuapp.com/)
