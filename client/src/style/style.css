@@ -147,3 +147,12 @@
   background-position: center;
   background-image: url(../assets/images/Colourful.png);
 }
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
