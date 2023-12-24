@@ -1,13 +1,12 @@
 {
+  "homepage": "https://davidhccnguyen.github.io/UOAWDC23.1-Event-Management-Platform",
   "name": "event-planner",
   "version": "1.0.0",
-  "homepage": "https://davidhccnguyen.github.io/UOAWDC23.1-Event-Management-Platform",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node server/server.js --ignore client",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
@@ -41,6 +40,5 @@
   },
   "bugs": {
     "url": "https://github.com/DavidHCCNguyen/C-23.1-Event-Management-Platform/issues"
-  },
-  "homepage": "https://github.com/DavidHCCNguyen/C-23.1-Event-Management-Platform#readme"
+  }
 }
