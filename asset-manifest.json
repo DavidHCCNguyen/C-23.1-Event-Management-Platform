@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/UOAWDC23.1-Event-Management-Platform/static/css/main.c7ba24a8.css",
+    "main.js": "/UOAWDC23.1-Event-Management-Platform/static/js/main.943fe0d1.js",
+    "static/media/nightlight-image.png": "/UOAWDC23.1-Event-Management-Platform/static/media/nightlight-image.4f1a3dd9c6eed27e82e0.png",
+    "static/media/Colourful.png": "/UOAWDC23.1-Event-Management-Platform/static/media/Colourful.c8163953a59370e07ed7.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/UOAWDC23.1-Event-Management-Platform/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/UOAWDC23.1-Event-Management-Platform/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/UOAWDC23.1-Event-Management-Platform/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/UOAWDC23.1-Event-Management-Platform/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/river-image.png": "/UOAWDC23.1-Event-Management-Platform/static/media/river-image.0ab0ccf0480e5d064f38.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/UOAWDC23.1-Event-Management-Platform/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/UOAWDC23.1-Event-Management-Platform/index.html",
+    "main.c7ba24a8.css.map": "/UOAWDC23.1-Event-Management-Platform/static/css/main.c7ba24a8.css.map",
+    "main.943fe0d1.js.map": "/UOAWDC23.1-Event-Management-Platform/static/js/main.943fe0d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ba24a8.css",
+    "static/js/main.943fe0d1.js"
+  ]
+}
