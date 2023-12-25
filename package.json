@@ -1,5 +1,4 @@
 {
-  "homepage": "https://davidhccnguyen.github.io/UOAWDC23.1-Event-Management-Platform",
   "name": "event-planner",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,16 +7,13 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.3.0",
-    "gh-pages": "^6.1.1"
+    "concurrently": "^5.3.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
